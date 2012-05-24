@@ -1,4 +1,4 @@
-blog
-====
+CyberSecure blog
+================
 
-CyberSecure Blog
+This is the source of the cybersecure blog.
