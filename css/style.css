@@ -132,6 +132,12 @@ a:hover {
   max-width: 850px;
 }
 /* line 128, ../_sass/style.scss */
+#posts article .post-content a {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid #CCC;
+}
+/* line 134, ../_sass/style.scss */
 #posts article .post-content h1 {
   border: none;
   font-size: 30px;
@@ -142,7 +148,26 @@ a:hover {
   margin-bottom: 5px;
   padding-bottom: 5px;
 }
-/* line 139, ../_sass/style.scss */
+/* line 143, ../_sass/style.scss */
+#posts article .post-content h1 a {
+  border: none;
+}
+/* line 148, ../_sass/style.scss */
 #posts article .post-content p.meta {
   color: #3A74D0;
+}
+/* line 152, ../_sass/style.scss */
+#posts article .post-content blockquote {
+  border-left: 10px solid #3A74D0;
+  padding-left: 20px;
+  display: inline-block;
+  padding-bottom: 0;
+  margin-left: 0;
+  font-size: 15px;
+  line-height: 25px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #4D4D4D;
+  font-family: 'proxima-nova',sans-serif;
+  max-width: 430px;
 }

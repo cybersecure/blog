@@ -1,10 +1,18 @@
 ---
 layout: post
-title: ZFS File System - The final step towards ultimate configuration
+title: ZFS File System - The final step in filesystems
 ---
 
 {% include title.html %}
 
 p(meta). 30th Dec 2011 - Melbourne
 
+When it comes to self-development, programmers can often be illogical.
 
+They spend thousands on conferences, hundreds on books and many hours coding late into the night learning about exciting new technologies. They do all of this to try and improve their brain's ability to program. However, they manage to neglect one of the most significant factors to their brain's performance: exercise.
+
+Our bodies are not just some vehicle to get our brains between meetings and keyboards. Like it or not, our brains are deeply tied to the performance of our bodies. This sedentary lifestyle we've become accustomed to has severe implications on our performance as programmers.
+
+I run for 15 minutes every day, and swim every other day. This isn't much at all, but it works for me, and keeps me in a fit and healthy shape. I feel so good after taking exercise. It lifts my spirits, and I can think much more clearly. It's a crucial part of my life.
+
+So, when you're making that resolution to learn a new language or technology, remember that's only part of the puzzle. By taking time to be healthy and take exercise, I can assure you your brain will reap the rewards.
