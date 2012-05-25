@@ -1,0 +1,11 @@
+---
+layout: default
+title: CyberSecure Blog - Some Musings!
+---
+{% for post in site.posts %}
+   <article>
+      <div class="post-content">
+         {{ post.content }}
+      </div>
+   </article>
+{% endfor %}

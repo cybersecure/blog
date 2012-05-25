@@ -1,0 +1,148 @@
+@import "normalize.css";
+
+html { 
+    -webkit-font-smoothing:antialiased; 
+}
+
+body {
+    font-size: 92%; 
+    color: #4D4D4D;
+    padding: 0px;
+    min-width: 1024px;
+}
+
+a, a:visited {
+    color: black; 
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3A74D0;
+}
+
+
+#sidebar {
+    padding-left: 20px;
+    width: 258px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: auto;
+    min-height: 690px;
+    z-index: 0;
+
+    p {
+        width: 200px;
+        color: #999;
+        margin-bottom: 40px;
+    }
+
+    .logo {
+        position: absolute;
+        left: 30px;
+        top: 30px;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border: 5px solid #F8F8F8;
+
+        a {
+            display: block;
+            height: 120px;
+            width: 120px;
+            border: none;
+            position: absolute;
+
+            #logo {
+                background-color: #3A74D0;
+                background-image: url(http://mysterious.s3.amazonaws.com/radio_large.png);
+                position: absolute;
+                border-radius: 50%;
+                -moz-border-radius: 50%;
+                -webkit-border-radius: 50%;
+                width: 80px;
+                height: 80px;
+                left: 50%;
+                top: 50%;
+                margin-top: -42px;
+                margin-left: -42px;
+                border: 2px solid 
+                white;
+                background-size: 100%;
+                -moz-background-size: 100%;
+            }
+        }
+    }
+
+    h1 {
+        font-family: "freight-sans-pro",sans-serif;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 38px;
+        border: none;
+        display: block;
+        margin-top: 185px;
+        margin-bottom: 20px;
+    }
+
+    a.network_link {
+        position: absolute;
+        left: 30px;
+        bottom: 30px;
+        font-size: 12px;
+        color: #777;
+        border-bottom: none;
+    }
+}
+
+#posts {
+    border:1px solid white;
+    margin-left: 260px;
+    border-left: 1px solid #e2e2e2;
+
+    header {
+        border-bottom: 1px solid #e2e2e2;
+
+        #date {
+            color: black;
+            text-transform: uppercase;
+            font-weight: bold;
+            padding-top: 4em;
+            padding-bottom: 4em;
+            font-size: 1em;
+            padding-left: 50px;
+        }
+    }
+
+    article {
+        border-bottom: 1px solid #e2e2e2;
+        padding: 25px 50px;
+        color: #666;
+        
+        .post-content {
+            line-height: 2em;
+            
+            h1 {
+                border: none;
+                font-size: 30px;
+                color: black;
+                text-decoration: none;
+                font-family: 'ff-meta-web-pro',sans-serif;
+                font-weight: 700;
+                margin-bottom: 5px;
+                padding-bottom: 5px;
+            }
+
+            p.meta {
+                color: #3A74D0;
+            }
+
+            
+
+            max-width: 850px;
+        }
+    }
+}

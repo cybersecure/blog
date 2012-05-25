@@ -1,0 +1,50 @@
+.logo#logo {
+
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: 5px solid #f8f8f8;
+}
+.logo#logo a {
+    display: block;
+    height: 120px;
+    width: 120px;
+    border: none;
+    position: absolute;
+}
+figure#user_logo div.logo {
+    position: absolute;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    left: 50%;
+    top: 50%;
+    margin-top: -42px;
+    margin-left: -42px;
+    border: 2px solid #fff;
+    background-size: 100%;
+    -moz-background-size: 100%;
+    background: #000 url(http://mysterious.s3.amazonaws.com/bolt_large.png) center center no-repeat;
+}
+figure#user_logo div.logo {
+    background-size: 100%;
+    -moz-background-size: 100%;
+}
+figure#user_logo div.pulse {
+    position: absolute;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    border: 10px solid #fff;
+    left: 50%;
+    top: 50%;
+    margin-top: -70px;
+    margin-left: -70px;
+    -webkit-transform: scale(0.55);
+}

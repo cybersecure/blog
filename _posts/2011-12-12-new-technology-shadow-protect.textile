@@ -1,0 +1,19 @@
+---
+layout: post
+title: New technology - Shadow Protect
+---
+
+{% include title.html %}
+
+p(meta). 12th Dec 2011 - Melbourne
+
+
+[cybersecure]http://www.cybersecure.com.au
+[markdown]http://daringfireball.net/projects/markdown/
+[textile]http://www.textism.com/tools/textile/index.php
+[jekyll]https://github.com/mojombo/jekyll
+[haml]http://haml-lang.com/
+[sass]http://sass-lang.com/
+[rails]http://www.rubyonrails.com/
+[github]https://github.com/
+[disqus]http://disqus.com/

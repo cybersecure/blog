@@ -1,0 +1,10 @@
+---
+layout: post
+title: Example Post One
+tags: [design, blog]
+---
+
+{% include title.html %}
+
+p(meta). 15th Jan 2012 - Melbourne
+

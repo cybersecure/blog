@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+    <title>{{ page.title }}</title>
+		<link rel="stylesheet" href="/css/style.css" />
+	  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	</head>
+  <body>
+    <section id="sidebar">	
+      <div class="logo">	
+        <a href="http://blog.cybersecure.com.au"><span id="logo">&nbsp;</span></a>
+      </div>
+		  <h1><a href="/" title="Blog CyberSecure" rel="home">cybersecure</a></h1>
+		  <p>Australian leaders in offsite backup, with variety of solutions to fit your need.</p>
+		  <ul class="links">
+			  <li><a href="/about">About Us</a></li>
+				<li><a target="_blank" href="http://twitter.com/jaischeema">@jaischeema</a></li>
+				<li><a href="mailto:admin@cybersecure.com.au">say hello</a></li>
+			  <li><a href="/atom.xml">rss feed</a></li>
+		  </ul>
+      <a href="http://svbtle.com" class="network_link">Original design from <span>Svbtle</span>.</a>
+    </section>
+    <section id="posts">
+      <header>
+        <div id="date">25th May 2012</div>
+      </header>
+      {{ content }}
+	  </section>
+    <script data-cfasync="false" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script language="text/javascript">
+      $(document).ready(function() {
+        $("#date").html(Date.now());
+      });
+    </script>
+	</body>
+</html>
+
