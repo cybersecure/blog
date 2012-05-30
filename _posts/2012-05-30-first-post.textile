@@ -1,11 +1,11 @@
 ---
 layout: post
-title: New technology - Shadow Protect
+title: First Post
 ---
 
 {% include title.html %}
 
-p(meta). 12th Dec 2011 - Melbourne
+p(meta). 30th May 2012 - Melbourne
 
 CommonJS "modules":cybersecure are a way of encapsulating and packaging up JavaScript files to ensure they're name-spaced and loosely coupled, a crucial aspect to ensuring JavaScript code quality and maintainability.
 
