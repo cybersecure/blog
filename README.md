@@ -15,12 +15,11 @@ STRUCTURE
   
   * Post file needs the following parts
     <pre><code>
-    ---
-    layout: post
-    title: title of the post
-    ---
-
-    p(meta). date of the publication - place of the publication ( this part is optional )
+      ---
+      layout: post
+      title: title of the post
+      ---
+      p(meta). date of the publication - place of the publication ( this part is optional )
     </code></pre>
   * Each post file is named in the following pattern:
     <code>year-month-date-title-of-the-post.textile</code>
