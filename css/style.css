@@ -39,47 +39,50 @@ a:hover {
 #sidebar p {
   width: 200px;
   color: #999;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+  margin-left: 20px;
 }
-/* line 41, ../_sass/style.scss */
+/* line 42, ../_sass/style.scss */
 #sidebar .logo {
   position: absolute;
   left: 30px;
   top: 30px;
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border: 5px solid #F8F8F8;
 }
-/* line 52, ../_sass/style.scss */
+/* line 53, ../_sass/style.scss */
 #sidebar .logo a {
   display: block;
-  height: 120px;
-  width: 120px;
+  height: 150px;
+  width: 150px;
   border: none;
   position: absolute;
 }
-/* line 59, ../_sass/style.scss */
+/* line 60, ../_sass/style.scss */
 #sidebar .logo a #logo {
-  background-color: #3A74D0;
-  background-image: url(http://mysterious.s3.amazonaws.com/radio_large.png);
+  background-color: #eee;
+  background-image: url(/images/csicon_128.png);
   position: absolute;
   border-radius: 50%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
-  width: 80px;
-  height: 80px;
+  width: 110px;
+  height: 110px;
   left: 50%;
   top: 50%;
-  margin-top: -42px;
-  margin-left: -42px;
+  margin-top: -56px;
+  margin-left: -56px;
   border: 2px solid white;
-  background-size: 100%;
-  -moz-background-size: 100%;
+  background-size: 80%;
+  -moz-background-size: 80%;
+  background-position: 12px 14px;
+  background-repeat: no-repeat;
 }
-/* line 80, ../_sass/style.scss */
+/* line 82, ../_sass/style.scss */
 #sidebar h1 {
   font-family: "freight-sans-pro",sans-serif;
   font-weight: 900;
@@ -87,10 +90,10 @@ a:hover {
   line-height: 38px;
   border: none;
   display: block;
-  margin-top: 185px;
-  margin-bottom: 20px;
+  margin-top: 210px;
+  margin-left: 20px;
 }
-/* line 91, ../_sass/style.scss */
+/* line 93, ../_sass/style.scss */
 #sidebar a.network_link {
   position: absolute;
   left: 30px;
@@ -99,18 +102,40 @@ a:hover {
   color: #777;
   border-bottom: none;
 }
+/* line 102, ../_sass/style.scss */
+#sidebar ul.links {
+  list-style: none;
+}
+/* line 104, ../_sass/style.scss */
+#sidebar ul.links li {
+  text-align: center;
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  padding: 5px;
+  border: 2px solid #aaa;
+  width: 100px;
+}
+/* line 112, ../_sass/style.scss */
+#sidebar ul.links li a {
+  color: #999;
+}
+/* line 115, ../_sass/style.scss */
+#sidebar ul.links li a:hover {
+  color: #3A74D0;
+}
 
-/* line 101, ../_sass/style.scss */
+/* line 123, ../_sass/style.scss */
 #posts {
   border: 1px solid white;
   margin-left: 260px;
   border-left: 1px solid #e2e2e2;
 }
-/* line 106, ../_sass/style.scss */
+/* line 128, ../_sass/style.scss */
 #posts header {
   border-bottom: 1px solid #e2e2e2;
 }
-/* line 109, ../_sass/style.scss */
+/* line 131, ../_sass/style.scss */
 #posts header #date {
   color: black;
   text-transform: uppercase;
@@ -120,24 +145,24 @@ a:hover {
   font-size: 1em;
   padding-left: 50px;
 }
-/* line 120, ../_sass/style.scss */
+/* line 142, ../_sass/style.scss */
 #posts article {
   border-bottom: 1px solid #e2e2e2;
   padding: 25px 50px;
   color: #666;
 }
-/* line 125, ../_sass/style.scss */
+/* line 147, ../_sass/style.scss */
 #posts article .post-content {
   line-height: 2em;
   max-width: 850px;
 }
-/* line 128, ../_sass/style.scss */
+/* line 150, ../_sass/style.scss */
 #posts article .post-content a {
   color: black;
   text-decoration: none;
   border-bottom: 1px solid #CCC;
 }
-/* line 134, ../_sass/style.scss */
+/* line 156, ../_sass/style.scss */
 #posts article .post-content h1 {
   border: none;
   font-size: 30px;
@@ -148,15 +173,15 @@ a:hover {
   margin-bottom: 5px;
   padding-bottom: 5px;
 }
-/* line 143, ../_sass/style.scss */
+/* line 165, ../_sass/style.scss */
 #posts article .post-content h1 a {
   border: none;
 }
-/* line 148, ../_sass/style.scss */
+/* line 170, ../_sass/style.scss */
 #posts article .post-content p.meta {
   color: #3A74D0;
 }
-/* line 152, ../_sass/style.scss */
+/* line 174, ../_sass/style.scss */
 #posts article .post-content blockquote {
   border-left: 10px solid #3A74D0;
   padding-left: 20px;
