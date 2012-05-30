@@ -2,7 +2,8 @@
 layout: default
 ---
 <article>
-   <div class="post-content">
-      {{ content }}
-   </div>
+  <div class="post-content">
+    {% include title.html %}
+    {{ content }}
+  </div>
 </article>
