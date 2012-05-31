@@ -1,29 +1,33 @@
 @import url(normalize.css);
 /* line 3, ../_sass/style.scss */
 html {
+  -font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 7, ../_sass/style.scss */
+/* line 9, ../_sass/style.scss */
 body {
   font-size: 92%;
   color: #4D4D4D;
   padding: 0px;
   min-width: 1024px;
+  font-family: "Open Sans" sans-serif;
+  font-weight: 400;
 }
 
-/* line 14, ../_sass/style.scss */
+/* line 18, ../_sass/style.scss */
 a, a:visited {
   color: black;
   text-decoration: none;
 }
 
-/* line 19, ../_sass/style.scss */
+/* line 23, ../_sass/style.scss */
 a:hover {
   color: #3A74D0;
 }
 
-/* line 24, ../_sass/style.scss */
+/* line 28, ../_sass/style.scss */
 #sidebar {
   padding-left: 20px;
   width: 258px;
@@ -35,14 +39,14 @@ a:hover {
   min-height: 690px;
   z-index: 0;
 }
-/* line 35, ../_sass/style.scss */
+/* line 39, ../_sass/style.scss */
 #sidebar p {
   width: 200px;
   color: #999;
   margin-bottom: 30px;
   margin-left: 20px;
 }
-/* line 42, ../_sass/style.scss */
+/* line 46, ../_sass/style.scss */
 #sidebar .logo {
   position: absolute;
   left: 30px;
@@ -54,7 +58,7 @@ a:hover {
   -webkit-border-radius: 50%;
   border: 5px solid #F8F8F8;
 }
-/* line 53, ../_sass/style.scss */
+/* line 57, ../_sass/style.scss */
 #sidebar .logo a {
   display: block;
   height: 150px;
@@ -62,7 +66,7 @@ a:hover {
   border: none;
   position: absolute;
 }
-/* line 60, ../_sass/style.scss */
+/* line 64, ../_sass/style.scss */
 #sidebar .logo a #logo {
   background-color: #eee;
   background-image: url(/images/csicon_128.png);
@@ -82,7 +86,7 @@ a:hover {
   background-position: 12px 14px;
   background-repeat: no-repeat;
 }
-/* line 82, ../_sass/style.scss */
+/* line 86, ../_sass/style.scss */
 #sidebar h1 {
   font-family: "freight-sans-pro",sans-serif;
   font-weight: 900;
@@ -93,7 +97,7 @@ a:hover {
   margin-top: 210px;
   margin-left: 20px;
 }
-/* line 93, ../_sass/style.scss */
+/* line 97, ../_sass/style.scss */
 #sidebar a.network_link {
   position: absolute;
   left: 30px;
@@ -102,11 +106,11 @@ a:hover {
   color: #777;
   border-bottom: none;
 }
-/* line 102, ../_sass/style.scss */
+/* line 106, ../_sass/style.scss */
 #sidebar ul.links {
   list-style: none;
 }
-/* line 104, ../_sass/style.scss */
+/* line 108, ../_sass/style.scss */
 #sidebar ul.links li {
   text-align: center;
   display: block;
@@ -116,26 +120,26 @@ a:hover {
   border: 2px solid #aaa;
   width: 100px;
 }
-/* line 112, ../_sass/style.scss */
+/* line 116, ../_sass/style.scss */
 #sidebar ul.links li a {
   color: #999;
 }
-/* line 115, ../_sass/style.scss */
+/* line 119, ../_sass/style.scss */
 #sidebar ul.links li a:hover {
   color: #3A74D0;
 }
 
-/* line 123, ../_sass/style.scss */
+/* line 127, ../_sass/style.scss */
 #posts {
   border: 1px solid white;
   margin-left: 260px;
   border-left: 1px solid #e2e2e2;
 }
-/* line 128, ../_sass/style.scss */
+/* line 132, ../_sass/style.scss */
 #posts header {
   border-bottom: 1px solid #e2e2e2;
 }
-/* line 131, ../_sass/style.scss */
+/* line 135, ../_sass/style.scss */
 #posts header #date {
   color: black;
   text-transform: uppercase;
@@ -145,24 +149,24 @@ a:hover {
   font-size: 1em;
   padding-left: 50px;
 }
-/* line 142, ../_sass/style.scss */
+/* line 146, ../_sass/style.scss */
 #posts article {
   border-bottom: 1px solid #e2e2e2;
   padding: 25px 50px;
   color: #666;
 }
-/* line 147, ../_sass/style.scss */
+/* line 151, ../_sass/style.scss */
 #posts article .post-content {
   line-height: 2em;
   max-width: 850px;
 }
-/* line 150, ../_sass/style.scss */
+/* line 154, ../_sass/style.scss */
 #posts article .post-content a {
   color: black;
   text-decoration: none;
   border-bottom: 1px solid #CCC;
 }
-/* line 156, ../_sass/style.scss */
+/* line 160, ../_sass/style.scss */
 #posts article .post-content h1 {
   border: none;
   font-size: 30px;
@@ -173,15 +177,15 @@ a:hover {
   margin-bottom: 5px;
   padding-bottom: 5px;
 }
-/* line 165, ../_sass/style.scss */
+/* line 169, ../_sass/style.scss */
 #posts article .post-content h1 a {
   border: none;
 }
-/* line 170, ../_sass/style.scss */
+/* line 174, ../_sass/style.scss */
 #posts article .post-content p.meta {
   color: #3A74D0;
 }
-/* line 174, ../_sass/style.scss */
+/* line 178, ../_sass/style.scss */
 #posts article .post-content blockquote {
   border-left: 10px solid #3A74D0;
   padding-left: 20px;

@@ -1,6 +1,8 @@
 @import "normalize.css";
 
 html { 
+    -font-smoothing:antialiased; 
+    -moz-font-smoothing:antialiased; 
     -webkit-font-smoothing:antialiased; 
 }
 
@@ -9,6 +11,8 @@ body {
     color: #4D4D4D;
     padding: 0px;
     min-width: 1024px;
+    font-family: "Open Sans" sans-serif;
+    font-weight: 400;
 }
 
 a, a:visited {

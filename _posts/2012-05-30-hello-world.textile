@@ -7,8 +7,7 @@ p(meta). 30th May 2012 - Melbourne
 
 This is the first post on this site and as is the norm with programming world, it says **Hello World**.
 We are "CyberSecure":cybersecure, the leading backup service providers in Australia.
-This blog is powered by "Jekyll":jekyll and hosted on "Github":github. All the posts are written in "Textile Markup Language":textile. We would like to thank 
-all the people behind these projects by atleast putting a link on our site.
+This blog is powered by "Jekyll":jekyll and hosted on "Github":github. All the posts are written in "Textile Markup Language":textile. We would like to thank all the people behind these projects by atleast putting a link on our site.
 
 [cybersecure]http://www.cybersecure.com.au
 [textile]http://www.textism.com/tools/textile/index.php
