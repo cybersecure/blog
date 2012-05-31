@@ -84,9 +84,9 @@ a:hover {
     }
 
     h1 {
-        font-family: "freight-sans-pro",sans-serif;
-        font-weight: 900;
-        font-size: 24px;
+        font-family: "Open Sans",sans-serif;
+        font-weight: 600;
+        font-size: 30px;
         line-height: 38px;
         border: none;
         display: block;
@@ -135,12 +135,38 @@ a:hover {
         #date {
             color: black;
             text-transform: uppercase;
-            font-weight: bold;
+            font-weight: 600;
             padding-top: 4em;
             padding-bottom: 4em;
-            font-size: 1em;
+            font-size: 1.1em;
             padding-left: 50px;
+
+            span {
+              color: #3A74D0;
+            }
         }
+    }
+    
+    footer {
+      border-bottom: 1px solid #e2e2e2;
+      padding: 50px;
+      font-weight: 300;
+ 
+      a {
+        text-align: center;
+        display: block;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 30px;
+        padding: 10px;
+        border: 2px solid #3A74D0;
+        width: 150px;
+        color: #3A74D0;
+        &:hover {
+          color: #fff;
+          background-color: #3A74D0;
+        }
+      }
     }
 
     article {
@@ -173,6 +199,7 @@ a:hover {
 
             p.meta {
                 color: #3A74D0;
+                font-weight: 300;
             }
 
             blockquote {

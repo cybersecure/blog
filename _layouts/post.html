@@ -1,9 +1,15 @@
 ---
 layout: default
 ---
+<header class="post-date">
+  <div id="date">Posted on <span>{{ page.date | date_to_string }}</span></div>
+</header>
 <article>
   <div class="post-content">
     {% include title.html %}
     {{ content }}
   </div>
 </article>
+<footer>
+  <a href="/">←   Back to blog</a>
+</footer>

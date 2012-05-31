@@ -23,9 +23,6 @@
       <a href="http://svbtle.com" class="network_link">Original design from <span>Svbtle</span>.</a>
     </section>
     <section id="posts">
-      <header>
-        <div id="date">25th May 2012</div>
-      </header>
       {{ content }}
     </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -33,7 +30,7 @@
       $(document).ready(function() {
         var now = new Date();
         var format = now.toDateString();
-        $("#date").html(format);
+        $(".home-date #date").html(format);
       });
     </script>
 	</body>
