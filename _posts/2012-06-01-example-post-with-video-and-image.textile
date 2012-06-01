@@ -1,0 +1,29 @@
+---
+layout: post
+title: Example Post with Video and Image
+---
+
+This is the example post with all the elements. I wanted to try everything in a single post.
+
+h2. Here goes the second level of headers
+
+<hr/>
+
+bq. They are always awesome
+
+!/images/posts/1.jpg(image 1)!
+
+<object width="250" height="40" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="gsSong3273598474" name="gsSong3273598474"><param name="movie" value="http://grooveshark.com/songWidget.swf" /><param name="wmode" value="window" /><param name="allowScriptAccess" value="always" /><param name="flashvars" value="hostname=cowbell.grooveshark.com&songIDs=32735984&style=metal&p=0" /><object type="application/x-shockwave-flash" data="http://grooveshark.com/songWidget.swf" width="250" height="40"><param name="wmode" value="window" /><param name="allowScriptAccess" value="always" /><param name="flashvars" value="hostname=cowbell.grooveshark.com&songIDs=32735984&style=metal&p=0" /><span>Without You by <a href="http://grooveshark.com/artist/David+Guetta/229" title="David Guetta">David Guetta</a> on Grooveshark</span></object></object>
+
+<iframe width="640" height="360" src="http://www.youtube.com/embed/lBq4algKviI" frameborder="0" allowfullscreen></iframe>
+
+{% highlight ruby %}
+  def method_1
+    puts "This is a ruby method"
+    if some_statement
+      puts "Trying if"
+    else
+      puts "Trying else"
+    end
+  end
+{% endhighlight %}
