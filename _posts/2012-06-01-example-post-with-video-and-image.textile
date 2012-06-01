@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Example Post with Video and Image
+published: false
 ---
 
 This is the example post with all the elements. I wanted to try everything in a single post.
