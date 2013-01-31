@@ -14,19 +14,18 @@ STRUCTURE
 * All the posts are located under _posts folder. Each individual file is a post in itself.
   
   * Post file needs the following parts
-    <pre><code>
+    <pre>
       ---
       layout: post
       title: title of the post
       ---
       p(meta). date of the publication - place of the publication ( this part is optional )
-    </code></pre>
+    </pre>
   * Each post file is named in the following pattern:
     <code>year-month-date-title-of-the-post.textile</code>
   * All the content is written in textile markup. Please read about it before writing a post.
 
 * All the changes can be seen live on the development machine by following this procedure.
-
   * Make the changes and start the server by running <code>foreman start</code>
   * Visit the webpage on port 4000 on the local machine.
 
